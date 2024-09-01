@@ -1,0 +1,16 @@
+.wrapInput {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 15px;
+    border-radius: 1vw;
+    color: black;
+    background-color: aliceblue;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+}
