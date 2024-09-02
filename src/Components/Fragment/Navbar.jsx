@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="container-Navbar">
       <img src={avatar} alt="" width={60} height={60} />
       <div className="morningIcon">
-        <img src={morningIcon} width={80} height={80} />
+        <img src={morningIcon} width={40} height={40} />
         <h1>Good Moring,{getUsername}</h1>
       </div>
       <div className="navbarRight">
