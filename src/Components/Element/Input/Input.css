@@ -6,11 +6,12 @@
 
 .input {
     padding: 15px;
-    border-radius: 1vw;
+    width: 20vw;
+    border-radius: 0.5rem;
     color: black;
-    background-color: aliceblue;
-    -webkit-border-radius: 1vw;
-    -moz-border-radius: 1vw;
-    -ms-border-radius: 1vw;
-    -o-border-radius: 1vw;
+    background-color: inherit;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
 }
