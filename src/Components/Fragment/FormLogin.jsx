@@ -17,23 +17,25 @@ const FormLogin = () => {
   }
 
   return (
-    <div className="formLogin">
-      <h1>Login</h1>
-      <InputForm
-        text={"Username"}
-        placeholder={"Username"}
-        type={"text"}
-        onChange={(e) => setUserName(e.target.value)}
-      />
-      <InputForm
-        text={"Password"}
-        placeholder={"Password"}
-        type={"password"}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <Button onClick={handleLogin} classname={"button"}>
-        Login
-      </Button>
+    <div className="wrapFormLogin">
+      <div className="formLogin">
+        <h1>Login</h1>
+        <InputForm
+          text={"Username"}
+          placeholder={"Username"}
+          type={"text"}
+          onChange={(e) => setUserName(e.target.value)}
+        />
+        <InputForm
+          text={"Password"}
+          placeholder={"Password"}
+          type={"password"}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <Button onClick={handleLogin} classname={"button"}>
+          Login
+        </Button>
+      </div>
     </div>
   );
 };

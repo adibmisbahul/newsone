@@ -1,5 +1,15 @@
+.wrapFormLogin {
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
 .formLogin {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 20px;
     color: black;
@@ -10,7 +20,6 @@
     -moz-box-shadow: -1px 10px 5px 0px rgba(171, 171, 171, 0.4);
     background-color: white;
     border: solid rgba(0, 0, 0, 0.514) 1px;
-
 }
 
 .formLogin h1 {
@@ -18,5 +27,7 @@
 }
 
 .button {
+    background-color: #1d4ed8;
     margin-top: 20px;
+    width: 100%;
 }
