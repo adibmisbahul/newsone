@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const CardNews = () => {
-  // const [data, setData] = useState(null);
+  const [data, setData] = useState(null);
   // const [loading, setLoading] = useState(true);
   // const [error, setError] = useState(null);
 
@@ -30,14 +30,15 @@ const CardNews = () => {
   // if (error) return <p>Error: {error.message}</p>;
 
   return (
-    <div key={data.id}>
-      {data.map((post) => {
+    <div>
+      <h1>card</h1>
+      {/* {data.map((post) => {
         return (
           <div className="" key={post.id}>
             <h1>{post.headline}</h1>
           </div>
         );
-      })}
+      })} */}
     </div>
   );
 };
